@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+.container{
+    width: 100%;
+    height:100vh;
+    background-image: url('../College project Crypto/SL-0212121-40670-60.png');
+    background-position: center;
+    background-size: cover;
+    padding:0 7%;
+    color:white;
+
+}
+nav{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+
+}
+nav ul li a{
+    color:rgb(173, 153, 115);
+}
+
+nav ul li a:hover{
+    color: white;
+    text-decoration: none;
+}
+nav .btn{
+    color:white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.content{
+    margin-top: 10%;
+}
+
+.content h1{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.content h1 span{
+    color:gold;
+}
+
+.content p{
+    line-height: 22px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.content .btn{
+    display:inline-block;
+    color:white;
+    text-decoration: none;
+    border: 1px solid gold;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: rgb(239, 175, 13);
+    margin-top: 28px;
+    
+}
+
+.coin-list{
+    position: absolute;
+    left: 4%;
+    bottom: 18%;
+    display: flex;
+    align-items: center;
+}
+
+/* .coin1 img{
+    
+    width: 60px;
+    height: 60px;
+}
+
+.coin2 img{
+    
+    width: 60px;
+    height: 60px;
+}
+
+.coin3 img{
+    
+    width: 60px;
+    height: 60px;
+} */
+
+.coin{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 0 15px;
+    color: gold;
+    border: 1px solid white;
+    padding: 20px 30px;
+    border-radius: 8px;
+
+}
+
+
+.coin img{
+    width: 60px;
+    height: 60px;
+}
+
+.coin h3{
+    color:white;
+    margin-bottom: 5px;
+}
+.coin3 img{
+    
+    width: 60px;
+    height: 60px;
+}
+.coin3{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 0 15px;
+    color: gold;
+    border: 1px solid white;
+    padding: 20px 30px;
+    border-radius: 8px;
+
+}
+.coin3 h3{
+    color:white;
+    margin-bottom: 5px;}
